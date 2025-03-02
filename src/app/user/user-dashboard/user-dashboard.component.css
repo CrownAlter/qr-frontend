@@ -1,0 +1,50 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #1a1a1a;
+  }
+  
+  .details-card, .recent-scans-card {
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .details-card mat-card-title,
+  .recent-scans-card mat-card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #0056b3;
+  }
+  
+  button {
+    margin-top: 15px;
+    width: 100%;
+  }
+  
+  .scan-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .qr-icon {
+    color: #0056b3;
+    cursor: pointer;
+  }
+  
